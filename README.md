@@ -1,4 +1,4 @@
-# SFDO - Crete Quiz Platform
+# SFDO Crete - Quiz Platform
 
 
 
