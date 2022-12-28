@@ -1,0 +1,44 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import './sal.css';
+@import './scrollbar.css';
+@import '../../vendor/filament/forms/dist/module.esm.css';
+.prose-dark {
+	@apply 
+	prose-headings:text-white 
+	prose-blockquote:text-gray-300  
+	prose-strong:text-gray-300  
+	prose-p:text-gray-300 
+	prose-a:text-primary-200;
+}
+
+.button {
+	@apply 
+	inline-flex
+	items-center	
+	border
+	rounded
+	font-medium
+	tracking-wide
+	focus:outline-none
+	focus:ring-2
+	focus:ring-offset-2
+	transition
+	ease-in-out
+	duration-150;
+}
+
+.button:not(.button-lg) {
+	@apply
+	px-4
+	py-2
+	text-sm;
+}
+
+.button.button-lg {
+	@apply
+	px-8
+	py-3
+	text-base;
+}
